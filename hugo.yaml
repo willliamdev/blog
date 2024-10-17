@@ -1,0 +1,84 @@
+baseURL: https://blog.willliam.dev/
+languageCode: en-us
+title: Willliam's Notes
+theme: ["PaperMod"]
+
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production 
+  title: Willliam's Notes
+  description: "Just a bunch of things that I want to revisit later" 
+  keywords: [Blog, Development, Linux, technology]
+  author: William Almeida
+  DateFormat: "2 January, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  UseHugoToc: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  assets:
+    disableHLJS: true # to disable highlight.js
+    favicon: "/assets/favicon.svg"
+
+  label:
+    text: "Willliam's Notes"
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: I am just a guy who likes Tech Stuff, Hip Hop and Racing Simulators.
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  editPost:
+    URL: "https://github.com/willliamdev/blog/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  social: true
+    
+menu:
+  main:
+    - identifier: tags
+      name: "tags"
+      url: /tags/
+      weight: 20
+    
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
