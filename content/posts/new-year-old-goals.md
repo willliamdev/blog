@@ -5,13 +5,12 @@ title: 'New Year, Old Goals'
 # tags: ["first"]
 showToc: true 
 TocOpen: false
-hidemeta: false
+hidemeta: true
 comments: false
-description: "Desc Text."
 disableShare: false
 ---
 
-Revivendo essa ideia de blogar com esse edit e meia dúzia de ideias.
+Revivendo essa ideia de bloggar com esse edit e meia dúzia de ideias.
 
 ![shell, fallin' to pieces](/images/lookAtTheSkyTonight.jpeg)
 

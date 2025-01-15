@@ -1,12 +1,11 @@
 ---
-title: "Hello World"
+title: Hello World
 date: 2024-10-16T23:01:34-03:00
 draft: false
 showToc: false
-draft: false
 hidemeta: false
 comments: false
-description: "Desc Text."
+description: Desc Text.
 disableShare: false
 ---
 

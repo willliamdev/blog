@@ -10,17 +10,20 @@
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fugindo dos algorítimos</title>
-      <link>http://localhost:1313/posts/take_a_breake/</link>
+      <link>http://localhost:1313/posts/take-a-breake/</link>
       <pubDate>Wed, 08 Jan 2025 21:40:29 -0300</pubDate>
-      <guid>http://localhost:1313/posts/take_a_breake/</guid>
+      <guid>http://localhost:1313/posts/take-a-breake/</guid>
       <description>uma breve história sobre um curto período que me motivou a ficar &amp;#39;clean&amp;#39;.</description>
     </item>
     <item>
       <title>New Year, Old Goals</title>
-      <link>http://localhost:1313/posts/newyearoldgoals/</link>
+      <link>http://localhost:1313/posts/new-year-old-goals/</link>
       <pubDate>Fri, 03 Jan 2025 15:41:21 -0300</pubDate>
-      <guid>http://localhost:1313/posts/newyearoldgoals/</guid>
-      <description>Desc Text.</description>
+      <guid>http://localhost:1313/posts/new-year-old-goals/</guid>
+      <description>&lt;p&gt;Revivendo essa ideia de bloggar com esse edit e meia dúzia de ideias.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/lookAtTheSkyTonight.jpeg&#34; alt=&#34;shell, fallin&amp;rsquo; to pieces&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;See you soon.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello World</title>
