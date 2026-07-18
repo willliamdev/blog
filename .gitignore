@@ -1,0 +1,18 @@
+# Hugo build output
+/public/
+/resources/_gen/
+/assets/watching/hugo_stats.json
+
+# Hugo lock/cache
+.hugo_build.lock
+hugo_cache/
+
+# (go.mod e go.sum NÃO entram aqui — devem ser versionados,
+# garantem que o build usa sempre a mesma versão do tema)
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

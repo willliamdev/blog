@@ -1,0 +1,108 @@
+baseURL: https://willliam.dev/
+title: willliam dev
+
+# Idioma padrão do site (usado quando não há bloco "languages" explícito
+# para essa chave). Precisa bater com a chave usada em "languages" abaixo.
+defaultContentLanguage: pt-br
+enableRobotsTXT: true
+
+languages:
+  pt-br:
+    locale: pt-br
+    weight: 1
+    contentDir: "content"
+
+outputs:
+  home: [html, rss]
+  page: [html]
+  section: [html, rss]
+
+taxonomies:
+  category: categories
+  tag: tags
+
+params:
+  description: "Willliam Dev - Portifólio, Blog e algumas resenhas que não sou recomendações, apenas uma nota."
+
+  navbar:
+    displayTitle: true
+    displayLogo: false
+    logo:
+      path: images/logo.svg
+      dark: images/logo-dark.svg
+      link: /
+      width: 40
+      height: 20
+
+  externalLinkDecoration: true
+
+  imageZoom:
+    enable: true
+
+  blog:
+    list:
+      pagerSize: 20
+      displayTags: true
+
+  toc:
+    displayTags: true
+
+  theme:
+    default: system
+    displayToggle: true
+
+  # Imagem padrão usada no preview (Open Graph / Twitter Card) ao
+  # compartilhar links do site. Coloque o arquivo em static/images/.
+  images:
+    - "images/social-preview.png"
+
+# Nested menus are supported by Hextra
+# https://imfing.github.io/hextra/docs/guide/configuration/#nested-menus
+menu:
+  main:
+    - name: Projetos
+      pageRef: /projects
+      weight: 1
+    - name: Contato
+      pageRef: /contact
+      weight: 3
+    - name: Currículo
+      pageRef: /cv
+      weight: 4
+    - identifier: Links
+      name: Mais
+      weight: 5
+    - name: Blog
+      pageRef: /blog
+      parent: Links
+    - name: LeetCode
+      url: https://leetcode.com/u/willliamdev/
+      parent: Links
+    - name: Search
+      weight: 6
+      params:
+        type: search
+    - name: GitHub
+      url: "https://github.com/willliamdev"
+      weight: 7
+      params:
+        icon: github
+
+build:
+  buildStats:
+    enable: true
+  cachebusters:
+    - source: assets/watching/hugo_stats\.json
+      target: css
+    - source: (postcss|tailwind)\.config\.js
+      target: css
+ 
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
