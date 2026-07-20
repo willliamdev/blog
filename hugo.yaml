@@ -26,14 +26,13 @@ params:
 
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
     logo:
       path: images/logo.svg
       dark: images/logo-dark.svg
       link: /
-      width: 40
-      height: 20
-
+      width: 30
+      height: 30
   externalLinkDecoration: true
 
   imageZoom:
@@ -75,6 +74,9 @@ menu:
     - name: Blog
       pageRef: /blog
       parent: Links
+    - name: Snippets
+      pageRef: /docs
+      parent: Links
     - name: LeetCode
       url: https://leetcode.com/u/willliamdev/
       parent: Links
@@ -97,6 +99,9 @@ build:
     - source: (postcss|tailwind)\.config\.js
       target: css
  
+footer:
+  displayCopyright: true
+  displayPoweredBy: true
 
 markup:
   goldmark:

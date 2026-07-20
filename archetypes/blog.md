@@ -7,7 +7,7 @@ author: "William Almeida"
 location: "Uberlândia - MG"
 tags: []
 
-# Infraestrutura, Desenvolvimento, Carreira, Acadêmico, Journaling
+# Infraestrutura, Desenvolvimento, Carreira, Graduation, Journaling
 categories: [Journaling]
 semester: "5º Semestre - SI"
 stack_utilizada: ["Arch Linux", "Docker", "Neovim"]
