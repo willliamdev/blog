@@ -4,9 +4,10 @@ toc: false
 ---
 Tô aberto a oportunidades como Desenvolvedor Júnior / Analista de Sistemas, freelas, colaborações em projetos open source ou simplesmente trocar uma ideia sobre tecnologia. Escolhe o canal que preferir:
 
-{{< cards cols="2" >}}
+{{< cards cols="3" >}}
   {{< card link="mailto:willliam.dev@gmail.com" title="Email" subtitle="`willliam.dev@gmail.com`" icon="mail" >}}
   {{< card link="https://wa.me/willliamdev" title="WhatsApp" subtitle="@willliamdev" icon="chat-alt" >}}
+  {{< card link="https://linkedin.com/in/willliamdev" title="LinkedIn" subtitle="`linkedin.com/in/willliamdev`" icon="linkedin" >}}
 {{< /cards >}}
 
 <br/>
