@@ -1,22 +1,19 @@
 ---
-title: "6° Semestre"
+title: 6° Semestre
 date: 2026-07-19T22:36:56-03:00
 draft: false
-description: "Mais um semestre da graduação, já passamos da metade e tenho que buscar migrar de carreira."
-author: "William Almeida"
-location: "Uberlândia - MG"
+description: Mais um semestre da graduação, já passamos da metade e tenho que buscar migrar de carreira.
+author: William Almeida
+location: Uberlândia - MG
 tags:
-    - Projeto de Sistemas
-
-
-# Infraestrutura, Desenvolvimento, Carreira, Graduation, Journaling
-categories: [graduation]
-semester: "5º Semestre - SI"
-
+  - Projeto de Sistemas
+categories:
+  - graduation
+semester: 5º Semestre - SI
 ---
 
 
-Acabei de checar o Portal do aluno e no próximo semetres terei:
+Acabei de checar o Portal do aluno e no próximo semestre terei:
 
 | Disciplina                                        | Profesor      |
 | :------------------------------------------------ | :------------ | 

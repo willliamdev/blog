@@ -1,3 +1,7 @@
+---
+title: Mark Down Syntax
+---
+
 # Markdown
 
 Hugo supports [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax for formatting text, creating lists, and more. This page will show you some of the most common Markdown syntax examples.

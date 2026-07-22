@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Página Incial
 layout: hextra-home
 ---
 Olá, meu nome é

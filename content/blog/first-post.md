@@ -1,13 +1,15 @@
 ---
-date: '2026-07-11T23:34:21-03:00'
+date: 2026-07-11T23:34:21-03:00
 draft: false
-title: 'First Post'
-description: "Hello, World!"
-author: "William Almeida"
-location: "Uberlândia - MG"
-tags: [Journaling, Music]
-# Infraestrutura, Desenvolvimento, Carreira, Acadêmico, Journaling
-categories: [Journaling]
+title: First Post
+description: Hello, World!
+author: William Almeida
+location: Uberlândia - MG
+tags:
+  - Journaling
+  - Music
+categories:
+  - Journaling
 ---
 
 

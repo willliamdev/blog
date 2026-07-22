@@ -7,6 +7,9 @@
 .hugo_build.lock
 hugo_cache/
 
+#obsidian vault configs
+.obsidian/
+
 # (go.mod e go.sum NÃO entram aqui — devem ser versionados,
 # garantem que o build usa sempre a mesma versão do tema)
 
@@ -16,3 +19,4 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+ 
