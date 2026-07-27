@@ -14,7 +14,7 @@ layout: default
 <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-mb-10">
 Uberlândia Refrescos (Coca-Cola) · Tempo integral · Uberlândia, MG
 </p>
-
+0
 ![Lata de Coca-Cola em fundo escuro — foto de Jeanson Wong / Unsplash](cocacola-bottle.jpg)
 
 Sou responsável pela estratégia no ponto de venda, garantindo disponibilidade e visibilidade de todo o portfólio Coca-Cola em loja.
