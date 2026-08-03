@@ -8,6 +8,8 @@ tags:
 categories:
   - Carreira
   - Desenvolvimento
+sidebar:
+  hide: true
 ---
 
 ![Screenshot](banner.png)
