@@ -14,12 +14,12 @@ layout: default
 <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-mb-10">
 Uberlândia Refrescos (Coca-Cola) · Tempo integral · Uberlândia, MG
 </p>
-0
-![Lata de Coca-Cola em fundo escuro — foto de Jeanson Wong / Unsplash](cocacola-bottle.jpg)
+
+![banner coca cola uberlândia refresco](cocacola-bottle.jpg)
 
 Sou responsável pela estratégia no ponto de venda, garantindo disponibilidade e visibilidade de todo o portfólio Coca-Cola em loja.
 
-Trabalho ativamente na **exposição de marca** — implementando pontos extras, ilhas e terminais promocionais pra maximizar o giro de estoque e aumentar o share de mercado — e faço **monitoramento constante** de indicadores como precificação, presença da marca e ações da concorrência.
+Trabalho ativamente na **exposição de marca**, implementando pontos extras, ilhas e terminais promocionais pra maximizar o giro de estoque e aumentar o share de mercado. Realizo o **monitoramento constante** de indicadores como precificação, presença da marca e ações da concorrência.
 
 Também atuo diretamente na **gestão de qualidade**, com controle rigoroso de estoque e validade através da metodologia PEPS (Primeiro que Entra, Primeiro que Sai), incluindo o controle de Shelf Life direto no ponto de venda.
 

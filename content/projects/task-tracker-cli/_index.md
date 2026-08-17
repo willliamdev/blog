@@ -6,8 +6,7 @@ author: William Almeida
 location: Uberlândia - MG
 tags:
   - JavaScript
-  - Projeto
-  - Web
+  - Projeto Web
 categories:
   - Carreira
   - Desenvolvimento
