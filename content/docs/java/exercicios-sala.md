@@ -2,8 +2,8 @@
 title: "Execícios: Sala de Aula"
 date: 2026-08-17T02:45:35-03:00
 draft: false
-description: "um guia de config pra que eu não sofra com isso de novo"
-author: "willliam dev"
+description: "Resolução dos exercícios, backup e pra fins de compartilhamento"
+author: "William Almeida"
 location: "Uberlândia - MG"
 tags: 
   - java
@@ -12,6 +12,8 @@ categories:
   - Setup
   - Graduation
 ---
+
+A varríaveis vão em English because look more professional.
 
 ## Execício 1
 
@@ -91,7 +93,11 @@ public class form extends JFrame {
 
 
 ## Execício 2
+
+
 ```java
+package exercicios.ex002;
+
 import java.awt.Container;
 
 import javax.swing.JButton;
@@ -168,33 +174,32 @@ public class StudentForm extends JFrame {
 
         lEmercencyContact = new JLabel("Contato de Emergência");
         tEmercencyContact = new JTextField();
-
-        lEmercencyPhone = new JLabel("Telefone do Contato de Emergência");
+        lEmercencyPhone = new JLabel("Telefone");
         tEmercencyPhone = new JTextField();
 
         btnInsert = new JButton("Inserir");
         btnAbort = new JButton("Cancelar");
 
         lName.setBounds(10, 10, 100, 25);
-        tName.setBounds(100, 10, 200, 25);
+        tName.setBounds(100, 10, 250, 25);
         lAdress.setBounds(10, 50, 100, 25);
-        tAdress.setBounds(100, 50, 200, 25);
+        tAdress.setBounds(100, 50, 250, 25);
         lPhone.setBounds(10, 90, 100, 25);
-        tPhone.setBounds(100, 90, 200, 25);
+        tPhone.setBounds(100, 90, 250, 25);
         lCPF.setBounds(10, 130, 100, 25);
-        tCPF.setBounds(100, 130, 200, 25);
+        tCPF.setBounds(100, 130, 250, 25);
         lBloodType.setBounds(10, 170, 110, 25);
         cmbBloodType.setBounds(110, 170, 50, 25);
         lRhFactor.setBounds(170, 170, 60, 25);
         cmbRhFactor.setBounds(250, 170, 50, 25);
-        lCurso.setBounds(10, 250, 100, 25);
-        cmbCurso.setBounds(100, 250, 200, 25);
-        lEmercencyContact.setBounds(10, 290, 200, 25);
-        tEmercencyContact.setBounds(220, 290, 200, 25);
-        lEmercencyPhone.setBounds(10, 330, 200, 25);
-        tEmercencyPhone.setBounds(220, 330, 200, 25);
-        btnInsert.setBounds(10, 370, 100, 25);
-        btnAbort.setBounds(120, 370, 100, 25);
+        lCurso.setBounds(10, 210, 100, 25);
+        cmbCurso.setBounds(100, 210, 250, 25);
+        lEmercencyContact.setBounds(10, 250, 150, 25);
+        tEmercencyContact.setBounds(150, 250, 200, 25);
+        lEmercencyPhone.setBounds(10, 290, 200, 25);
+        tEmercencyPhone.setBounds(100, 290, 250, 25);
+        btnInsert.setBounds(10, 370, 160, 35);
+        btnAbort.setBounds(190, 370, 160, 35);
 
         container.add(lName);
         container.add(tName);
@@ -216,7 +221,6 @@ public class StudentForm extends JFrame {
         container.add(tEmercencyPhone);
         container.add(btnInsert);
         container.add(btnAbort);
-
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
 
@@ -227,6 +231,108 @@ public class StudentForm extends JFrame {
     }
 }
 ```
+
+## Execício 3
+```java
+import java.awt.Container;
+import java.awt.Component;
+
+import javax.swing.JButton;
+import javax.swing.JFormattedTextField;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.text.MaskFormatter;
+
+public class cadFornecedor extends JFrame {
+    private JLabel lCompanyName;
+    private JTextField tCompanyName;
+    private JLabel lCEP;
+    private JFormattedTextField formattedCEP;
+    private JLabel lCNPJ;
+    private JFormattedTextField formattedCNPJ;
+    private JLabel lFornecedorCode;
+    private JFormattedTextField formattedFornecedorCode;
+    private JButton btnConfirmation;
+    private Container container;
+
+    public cadFornecedor() {
+        container = getContentPane();
+        setSize(800, 400);
+        setTitle("Cadastro Fornecedor");
+        container.setLayout(null);
+
+        try {
+            formattedCEP = new JFormattedTextField(new MaskFormatter("#####-###"));
+            formattedCNPJ = new JFormattedTextField(new MaskFormatter("##.###.###/####-##"));
+            // U -> Uppercase / Maiuscula
+            // L -> Lowercase / Minuscula
+            formattedFornecedorCode = new JFormattedTextField(new MaskFormatter("UU-#####L"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
+        lCompanyName = new JLabel("Razão Social:");
+        tCompanyName = new JTextField();
+        lFornecedorCode = new JLabel("Código do Fornecedor:");
+        lCEP = new JLabel("Cógido CEP:");
+        lCNPJ = new JLabel("CNPJ:");
+
+        btnConfirmation = new JButton("Cadastrar");
+
+
+        lCompanyName.setBounds(10, 10, 100, 25);
+        addRight(tCompanyName, lCompanyName, 10, 200, 25);
+        addBelow(lCEP, lCompanyName, 15, 100, 25);
+        addRight(formattedCEP , lCEP, 10, 200,25);
+        addBelow(lCNPJ, lCEP, 15, 100, 25);
+        addRight(formattedCNPJ, lCNPJ, 10, 200, 25);
+        addBelow(lFornecedorCode, lCNPJ, 15, 150, 25);
+        addRight(formattedFornecedorCode,lFornecedorCode, 10, 150, 25);
+        addBelow(btnConfirmation, lFornecedorCode, 20, 300, 40);
+        
+
+        Component[] components = {
+            lCompanyName,
+            tCompanyName,
+            lCEP,
+            formattedCEP,
+            lCNPJ,
+            formattedCNPJ,
+            lFornecedorCode,
+            formattedFornecedorCode,
+            btnConfirmation
+        };
+
+        for(Component component : components ){
+            container.add(component);
+        }
+
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setVisible(true);
+
+    }
+
+      private void addRight(Component target, Component reference, int gap, int width, int height) {
+        int x = reference.getX() + reference.getWidth() + gap;
+        int y = reference.getY();
+        target.setBounds(x, y, width, height);
+    }
+
+    private void addBelow(Component target, Component reference, int gap, int width, int height) {
+        int x = reference.getX();
+        int y = reference.getY() + reference.getHeight() + gap;
+        target.setBounds(x, y, width, height);
+    }
+
+    public static void main(String[] args) {
+        cadFornecedor telaCadastro = new cadFornecedor();
+    }
+}
+```
+
+
 <!--
 ## Execício 1
 ```java
