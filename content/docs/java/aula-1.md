@@ -1,22 +1,28 @@
 ---
-title: "Execícios: Sala de Aula"
+title: "Aula 1"
 date: 2026-08-17T02:45:35-03:00
 draft: false
-description: "Resolução dos exercícios, backup e pra fins de compartilhamento"
+description: "Resolução dos exercícios da Aula"
 author: "William Almeida"
 location: "Uberlândia - MG"
 tags: 
   - java
   - POO
 categories:
-  - Setup
   - Graduation
 ---
 
-A varríaveis vão em English because look more professional.
+{{< cards cols="1" >}}
+  {{< card link="https://drive.google.com/drive/folders/1jzKqo1nIJBSBeTdBCT2eXJ4gWf65GQFa?usp=drive_link"
+  title="Google Drive: Materias de estudo/Slides"
+  icon="cloud-download">}}
+{{< /cards >}}
+
+
+
 
 ## Execício 1
-
+A varríaveis estão em English because look more professional, idk.
 ```java
 import java.awt.Container;
 import javax.swing.JButton;

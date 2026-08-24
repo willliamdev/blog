@@ -1,12 +1,11 @@
 ---
-date:
 title: Task Tracker CLI
 description:
 author: William Almeida
 location: Uberlândia - MG
 tags:
-  - JavaScript
-  - Projeto Web
+  - Python
+  - Linux
 categories:
   - Carreira
   - Desenvolvimento

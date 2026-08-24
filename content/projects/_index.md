@@ -6,7 +6,10 @@ sidebar:
 toc: false
 ---
 
-{{< cards cols="3" >}}
+{{< cards cols="2" >}}
+  {{< card link="alex-academia-danca" title="Alex Academia de dança"
+      image="alex-academia-danca/banner.jpeg"
+      subtitle="Um site Institucional">}}
   {{< card link="calculadora-shelf-life" title="Calculadora ShelfLife"
       image="/images/projects/calcuradora-shelf-life.png"
       subtitle="Uma página web simples pra auxiliar o calculo de vida útil de produtos com base na categoria">}}
