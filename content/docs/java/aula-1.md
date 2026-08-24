@@ -92,11 +92,90 @@ public class form extends JFrame {
 
     public static void main(String[] args) {
         form login = new form();
-
     }
 }
 ```
 
+### A sequência lógica de inicialização de uma janela Swing
+{{% steps %}}
+
+#### Criação dos Atributos:
+Declaração das variáveis dos componentes no escopo da classe para que fiquem acessíveis em outros métodos, caso necessário.
+
+```java
+class TelaCadastroPessoa extends JFrame{   
+   private JLabel lName;
+   private JTextField tName;
+   private JLabel lCPF;
+   private JFormattedTextField formattedCPF;
+}
+```
+
+#### Setup do Painel Principal:
+Logo no início do construtor, temos que chamar esses dois métodos que vem da classe JFrame, sempra que nossa classe herda as caracterísicas da classe pai.
+```java
+//retorna o painel interno do JFrame (o Container) onde tudo será desenhado.
+// imagine que seria a tag <body> de uma página html.
+getContentPane()
+
+//remove o gerenciador automático do Swing, liberando o uso de posições absolutas com setBounds.
+setLayout(null)
+```
+Já adiantando também a config da janela com `setSize` e `setTitle`
+
+#### Instanciação dos Componentes:
+Criação dos objetos na memória com seus textos ou configurações iniciais (ex: new JLabel("Nome"), criação do MaskFormatter).
+
+```java
+class TelaCadastroPessoa extends JFrame{   
+    ...
+    public TelaCadastroPessoa(){
+     //insira os exemplos   
+    }
+}
+```
+
+#### Posicionamento dos Componetes:
+
+![imagen contendo os exemplos de posicionamento](image.png)
+Cálculo das coordenadas (X, Y) e dimensões (largura, altura) de cada elemento na tela.
+
+#### Adição dos Elementos ao Contêiner (add):
+```java
+lName = new JLabel("Nome");
+tName = new JTextField();
+
+lCPF = new JLabel("CPF");
+```
+O `try catch` no instanciamento do texto formatado evita que a gente insira um inválido pois os caracteres padrão do `MaskFormatter` são:
+
+* `#` - Dígito numérico
+* `U` - Letra maiúscula 
+* `L` - Letra minúscula
+* `?` - Qualquer letra
+* `A` - Qualquer letra ou número
+* `*` - Qualquer caractere
+* `'` - Usado para escapar caracteres especiais 
+    - exemplo `MaskFormatter("Cod-'#'-###")` onde o `#`faz parte da máscara.
+
+Digamos que erroneamente eu tivesse criado a másacara com um `N` achando que fosse `N de Número` essa linha dispararia um erro, por isso é de necessário o `try catch`
+
+```java
+    formattedCPF = new JFormattedTextField(new MaskFormatter("NNN.NNN.NNN-NN"));
+}
+```
+
+#### Configuração do Encerramento 
+```java
+// Define o comportamento ao clicar no botão "X" (fechar a aplicação)
+setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+// Exibição da janela na tela. 
+// Deve ser sempre o último passo para evitar renderizações incompletas dos elementos já adicionados.
+setVisible(true);
+```
+
+{{% /steps %}}
 
 ## Execício 2
 
