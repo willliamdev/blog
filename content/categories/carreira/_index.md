@@ -1,4 +1,0 @@
----
-title: Carreira
-type: blog
----

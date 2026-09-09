@@ -1,5 +1,6 @@
 ---
 title: Mark Down Syntax
+description: Guia de sintaxe Markdown com exemplos práticos de uso no Hugo e na documentação deste site.
 ---
 
 # Markdown

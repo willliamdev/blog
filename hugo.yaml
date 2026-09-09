@@ -50,6 +50,10 @@ params:
     default: system
     displayToggle: true
 
+  footer:
+    displayCopyright: true
+    displayPoweredBy: true
+
   # Imagem padrão usada no preview (Open Graph / Twitter Card) ao
   # compartilhar links do site. Coloque o arquivo em static/images/.
   images:
@@ -99,10 +103,6 @@ build:
     - source: (postcss|tailwind)\.config\.js
       target: css
  
-footer:
-  displayCopyright: true
-  displayPoweredBy: true
-
 markup:
   goldmark:
     renderer:

@@ -1,5 +1,6 @@
 ---
 title: Contato
+description: Canal de contato para oportunidades, colaborações, freelas e conversas sobre tecnologia.
 toc: false
 ---
 Tô aberto a oportunidades como Desenvolvedor Júnior / Analista de Sistemas, freelas, colaborações em projetos open source ou simplesmente trocar uma ideia sobre tecnologia. Escolhe o canal que preferir:

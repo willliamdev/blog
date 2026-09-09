@@ -1,5 +1,6 @@
 ---
 title: Página Incial
+description: Portfólio pessoal de William de Almeida com projetos, blog, documentação e registros de aprendizado.
 layout: hextra-home
 ---
 Olá, meu nome é
@@ -23,11 +24,10 @@ Bem-vindo ao meu portfólio. Aqui documento os projetos em que venho trabalhando
   {{< hextra/feature-card
     title="Trilhando os Fundamentos"
     subtitle="Atualmente estou no 6º período da graduação. Já passei pelos Fundamentos da Computação e tive minha primeira introdução à Engenharia de Software."
-    link="categories/graduation"
     icon="academic-cap"
   >}}
   {{< hextra/feature-card
-    title="Pequenos Projetos"
+    title="Projetos"
     subtitle="Já criei algumas ferramentas simples, mas o plano agora é unir teoria e prática de forma mais consistente pra enriquecer o portfólio de verdade. Aguardem."
     link="projects/"
     icon="cube"

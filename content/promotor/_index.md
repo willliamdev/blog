@@ -1,5 +1,6 @@
 ---
 title: Promotor de Vendas
+description: Experiência profissional em varejo e trade marketing, com foco em visibilidade de marca, gestão de estoque e controle de validade.
 toc: false
 layout: default
 ---

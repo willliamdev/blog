@@ -1,6 +1,7 @@
 ---
 title: Task Tracker CLI
-description:
+date: 2026-08-24T00:35:50-03:00
+description: Projeto de um task tracker em Python desenvolvido como primeiro desafio do roadmap.sh, com foco em CLI, persistência local de tarefas e aprendizado sobre lógica de aplicação no ambiente Linux.
 author: William Almeida
 location: Uberlândia - MG
 tags:
@@ -30,7 +31,7 @@ Além da agilidade, a linha de comando me dá uma clareza muito maior sobre o qu
 
 O roadmap.sh sugere o Task Tracker como primeiro projeto por uma razão estratégica: ele elimina a camada visual (front-end) e nos força a focar estritamente na lógica de aplicação e na manipulação de dados. É o exercício perfeito para compreender a anatomia de uma aplicação sem distrações.
 
-![Screenshot](image.png)
+![Screenshot](banner.png)
 
 Escolhas Técnicas: Python e a Filosofia Linux
 Para este projeto, fiz escolhas alinhadas com meu ambiente diário e com meus objetivos de carreira:

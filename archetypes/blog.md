@@ -1,10 +1,16 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "{{ replace .File.ContentBaseName "-" " " | title }}"
 date: {{ .Date }}
+description: ""
+tags:
+  - 
 draft: true
-description: "Breve descrição do conteúdo abaixo."
-author: "willliam dev"
-location: "Uberlândia - MG"
-tags: 
-categories:
 ---
+
+<!--
+  Dicas rápidas (Hextra):
+  - {{</* callout type="info" */>}} texto {{</* /callout */>}}
+  - {{</* tabs items="Linux,macOS" */>}}{{</* tab */>}}...{{</* /tab */>}}{{</* /tabs */>}}
+  - {{</* steps */>}} ### Passo 1 ... {{</* /steps */>}}
+  Apague este comentário antes de publicar.
+-->

@@ -1,5 +1,6 @@
 ---
-title: Controle de Valilade
+title: Controle de Validade
+description: Painel interno de controle de validade e PEPS usado no trabalho como promotor de vendas.
 toc: false
 ---
 

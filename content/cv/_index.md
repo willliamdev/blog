@@ -1,5 +1,6 @@
 ---
 title: Currículo
+description: Currículo profissional de William de Almeida com acesso rápido ao PDF atualizado.
 ---
 
 <div class="hx-flex hx-flex-col hx-items-center hx-justify-center hx-py-24 hx-text-center">

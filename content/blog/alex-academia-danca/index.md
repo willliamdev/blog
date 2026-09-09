@@ -1,6 +1,6 @@
 ---
-date: 2026-07-29T08:13:23-03:00
 title: Alex Academia de Dança
+date: 2026-08-24T00:35:50-03:00
 description: Desenvolvimento de website institucional responsivo para uma academia de dança, aplicando conceitos de Engenharia de Software, desenvolvimento web, UX e gerenciamento de projetos.
 author: William Almeida
 location: Uberlândia - MG

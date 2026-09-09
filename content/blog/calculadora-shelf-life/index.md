@@ -1,5 +1,6 @@
 ---
 title: Calculadora de Shelf Life
+date: 2026-07-19T23:50:51-03:00
 description: Como transformei uma planilha pesada do LibreOffice em uma ferramenta web simples para otimizar o recebimento de mercadorias.
 author: William Almeida
 location: Uberlândia - MG
@@ -8,8 +9,6 @@ tags:
 categories:
   - Carreira
   - Desenvolvimento
-sidebar:
-  hide: true
 ---
 
 ![Screenshot](banner.png)
