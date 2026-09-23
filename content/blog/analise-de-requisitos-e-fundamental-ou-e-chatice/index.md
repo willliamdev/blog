@@ -8,7 +8,7 @@ tags:
   - analise-de-sistemas
   - uml
   - aprendizado
-draft: true
+draft: false
 ---
 
 Estudar Engenharia de Software e Análise de Sistemas muitas vezes parece um exercício puramente teórico até que a gente se depara com estudos de caso reais. 
